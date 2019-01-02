@@ -13,14 +13,6 @@ public Plugin myinfo =
     version = INF_VERSION
 };
 
-public void OnPluginStart()
-{
-    // CMDS
-    RegConsoleCmd( "sm_normal", Cmd_Style_Normal, INF_NAME..." - Change your style to normal." );
-    RegConsoleCmd( "sm_default", Cmd_Style_Normal, "" );
-    RegConsoleCmd( "sm_n", Cmd_Style_Normal, "" );
-}
-
 public void OnAllPluginsLoaded()
 {
     if ( !Influx_AddStyle( STYLE_NORMAL, "Normal", "Normal", "nrml", false ) )
