@@ -462,7 +462,7 @@ Influx_GetModeName( Influx_GetReplayMode(), szTemp, sizeof( szTemp ), true );
         
         GetTabs( curlinelen, szTemp, sizeof( szTemp ), nTabAmount );
         
-        Format( szMsg, sizeof( szMsg ), "%s%sStyle: %s%s%s",
+        Format( szMsg, sizeof( szMsg ), "%s%sEdit line 465 pls",
             szMsg,
             szTemp,
             szTemp2,
