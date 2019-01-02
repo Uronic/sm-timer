@@ -45,3 +45,5 @@ sm plugins reload influx_zones_teleport
 sm plugins reload influx_zones_timer
 sm plugins reload influx_zones_validator
 ```
+
+Oh btw you should edit influx_hud_draw_csgo.sp on line 465 to your needs
